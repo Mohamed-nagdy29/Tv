@@ -6,7 +6,7 @@ import { Movies } from "./Movies";
 import { People } from "./People";
 import { Login } from "./Login";
 import { Register } from "./Register";
-import { Navbar } from "./Navbar";
+import { Navbaar } from "./Navbaar";
 import { MovieDetils } from "./MovieDetils";
 import { Tv } from "./Tv";
 
@@ -19,7 +19,7 @@ function App() {
   return (
     <div>
       <div className="container">
-        <Navbar Logout={Logout} />
+        <Navbaar Logout={Logout} />
         <Routes>
           <Route path="login" element={<Login />} />
           <Route path="/" element={<Home />} />
